@@ -1,4 +1,5 @@
 *.o
+build/source/*.o
 bin/PRG.exe
 /cmake-build-debug
 /.idea
