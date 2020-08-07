@@ -1,5 +1,6 @@
 #ifndef MYLESSONS_RESUME_H
 #define MYLESSONS_RESUME_H
+#include <iostream>
 #include <string>
 #include <utility>
 
@@ -8,11 +9,13 @@ private:
     unsigned int age;
     std::string name;
     std::string surname;
+    static unsigned int countOfResume;
 
 public:
     Resume() {
         age = 0;
         name = surname = "";
+        ++countOfResume;
     }
     Resume(unsigned int _age, std::string _name, std::string _surname) {
         this->age = _age;
@@ -25,6 +28,7 @@ public:
     unsigned int getAge() const;
     std::string getName();
     std::string getSurname();
+    static unsigned int getCountOfResume();
 };
 
 #endif
