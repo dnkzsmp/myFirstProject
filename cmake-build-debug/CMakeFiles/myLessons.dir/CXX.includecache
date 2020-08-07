@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.h
+iostream
+-
+string
+-
+utility
+-
+
+/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.cpp
+readData.h
+/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.h
+
+/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.h
+Resume.h
+/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.h
+fstream
+-
+
