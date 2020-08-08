@@ -17,5 +17,5 @@ void readFile() {
 }
 
 void currentCountOfResume() {
-    std::cout << "Current count of resume(s): " << &Resume::getCountOfResume;
+    std::cout << "Current count of resume(s): " << &Resume::getCountOfResume << std::endl;
 }
