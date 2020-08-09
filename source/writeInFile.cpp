@@ -22,9 +22,9 @@ int startWriteData() {
             isCurrentValue = false;
     }
     std::vector<std::function<void(Resume &)>> vectorOfFunctions;
-    vectorOfFunctions.emplace_back(writeAgeInFile);
-    vectorOfFunctions.emplace_back(writeNameInFile);
     vectorOfFunctions.emplace_back(writeSurnameInFile);
+    vectorOfFunctions.emplace_back(writeNameInFile);
+    vectorOfFunctions.emplace_back(writeAgeInFile);
     std::vector<Resume> vectorOfResumes(countOfResumes);
     doWriteInFileFunctions(vectorOfFunctions, vectorOfResumes);
 }
@@ -39,7 +39,7 @@ void writeAgeInFile(Resume &resume) {
         resume.setAgeForObject();
         fileOut << "Age: ";
         fileOut << resume.getAge();
-        fileOut << "\n";
+        fileOut << "\n<><><><><><><><>\n";
     }
     fileOut.close();
 }
@@ -69,7 +69,7 @@ void writeSurnameInFile(Resume &resume) {
         resume.setSurnameForObject();
         fileOut << "Surname: ";
         fileOut << resume.getSurname();
-        fileOut << "\n<><><><><><><><>\n";
+        fileOut << "\n";
     }
     fileOut.close();
 }
