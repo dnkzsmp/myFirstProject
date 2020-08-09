@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles/myLessons.dir/source/Resume.cpp.o"
-  "/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/main.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles/myLessons.dir/source/main.cpp.o"
-  "/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles/myLessons.dir/source/readData.cpp.o"
-  "/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/writeInFile.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles/myLessons.dir/source/writeInFile.cpp.o"
+  "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/Resume.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles/myLessons.dir/source/Resume.cpp.o"
+  "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/findInFile.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles/myLessons.dir/source/findInFile.cpp.o"
+  "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/main.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles/myLessons.dir/source/main.cpp.o"
+  "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/readData.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles/myLessons.dir/source/readData.cpp.o"
+  "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/writeInFile.cpp" "/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles/myLessons.dir/source/writeInFile.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

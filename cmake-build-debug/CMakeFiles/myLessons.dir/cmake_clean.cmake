@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/myLessons.dir/source/Resume.cpp.o"
+  "CMakeFiles/myLessons.dir/source/findInFile.cpp.o"
   "CMakeFiles/myLessons.dir/source/main.cpp.o"
   "CMakeFiles/myLessons.dir/source/readData.cpp.o"
   "CMakeFiles/myLessons.dir/source/writeInFile.cpp.o"

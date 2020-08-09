@@ -63,10 +63,10 @@ RM = /cygdrive/c/Users/Danil/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Danil/CLionProjects/myLessons
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Danil/CLionProjects/myFirstProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/myLessons.dir/depend.make
@@ -79,62 +79,76 @@ include CMakeFiles/myLessons.dir/flags.make
 
 CMakeFiles/myLessons.dir/source/main.cpp.o: CMakeFiles/myLessons.dir/flags.make
 CMakeFiles/myLessons.dir/source/main.cpp.o: ../source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myLessons.dir/source/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/main.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myLessons.dir/source/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/main.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/main.cpp
 
 CMakeFiles/myLessons.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLessons.dir/source/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/main.cpp > CMakeFiles/myLessons.dir/source/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/main.cpp > CMakeFiles/myLessons.dir/source/main.cpp.i
 
 CMakeFiles/myLessons.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLessons.dir/source/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/main.cpp -o CMakeFiles/myLessons.dir/source/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/main.cpp -o CMakeFiles/myLessons.dir/source/main.cpp.s
 
 CMakeFiles/myLessons.dir/source/Resume.cpp.o: CMakeFiles/myLessons.dir/flags.make
 CMakeFiles/myLessons.dir/source/Resume.cpp.o: ../source/Resume.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myLessons.dir/source/Resume.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/Resume.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myLessons.dir/source/Resume.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/Resume.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/Resume.cpp
 
 CMakeFiles/myLessons.dir/source/Resume.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLessons.dir/source/Resume.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.cpp > CMakeFiles/myLessons.dir/source/Resume.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/Resume.cpp > CMakeFiles/myLessons.dir/source/Resume.cpp.i
 
 CMakeFiles/myLessons.dir/source/Resume.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLessons.dir/source/Resume.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.cpp -o CMakeFiles/myLessons.dir/source/Resume.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/Resume.cpp -o CMakeFiles/myLessons.dir/source/Resume.cpp.s
 
 CMakeFiles/myLessons.dir/source/writeInFile.cpp.o: CMakeFiles/myLessons.dir/flags.make
 CMakeFiles/myLessons.dir/source/writeInFile.cpp.o: ../source/writeInFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myLessons.dir/source/writeInFile.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/writeInFile.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/writeInFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myLessons.dir/source/writeInFile.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/writeInFile.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/writeInFile.cpp
 
 CMakeFiles/myLessons.dir/source/writeInFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLessons.dir/source/writeInFile.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/writeInFile.cpp > CMakeFiles/myLessons.dir/source/writeInFile.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/writeInFile.cpp > CMakeFiles/myLessons.dir/source/writeInFile.cpp.i
 
 CMakeFiles/myLessons.dir/source/writeInFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLessons.dir/source/writeInFile.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/writeInFile.cpp -o CMakeFiles/myLessons.dir/source/writeInFile.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/writeInFile.cpp -o CMakeFiles/myLessons.dir/source/writeInFile.cpp.s
 
 CMakeFiles/myLessons.dir/source/readData.cpp.o: CMakeFiles/myLessons.dir/flags.make
 CMakeFiles/myLessons.dir/source/readData.cpp.o: ../source/readData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myLessons.dir/source/readData.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/readData.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myLessons.dir/source/readData.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/readData.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/readData.cpp
 
 CMakeFiles/myLessons.dir/source/readData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLessons.dir/source/readData.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.cpp > CMakeFiles/myLessons.dir/source/readData.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/readData.cpp > CMakeFiles/myLessons.dir/source/readData.cpp.i
 
 CMakeFiles/myLessons.dir/source/readData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLessons.dir/source/readData.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.cpp -o CMakeFiles/myLessons.dir/source/readData.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/readData.cpp -o CMakeFiles/myLessons.dir/source/readData.cpp.s
+
+CMakeFiles/myLessons.dir/source/findInFile.cpp.o: CMakeFiles/myLessons.dir/flags.make
+CMakeFiles/myLessons.dir/source/findInFile.cpp.o: ../source/findInFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myLessons.dir/source/findInFile.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myLessons.dir/source/findInFile.cpp.o -c /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/findInFile.cpp
+
+CMakeFiles/myLessons.dir/source/findInFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLessons.dir/source/findInFile.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/findInFile.cpp > CMakeFiles/myLessons.dir/source/findInFile.cpp.i
+
+CMakeFiles/myLessons.dir/source/findInFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLessons.dir/source/findInFile.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/findInFile.cpp -o CMakeFiles/myLessons.dir/source/findInFile.cpp.s
 
 # Object files for target myLessons
 myLessons_OBJECTS = \
 "CMakeFiles/myLessons.dir/source/main.cpp.o" \
 "CMakeFiles/myLessons.dir/source/Resume.cpp.o" \
 "CMakeFiles/myLessons.dir/source/writeInFile.cpp.o" \
-"CMakeFiles/myLessons.dir/source/readData.cpp.o"
+"CMakeFiles/myLessons.dir/source/readData.cpp.o" \
+"CMakeFiles/myLessons.dir/source/findInFile.cpp.o"
 
 # External object files for target myLessons
 myLessons_EXTERNAL_OBJECTS =
@@ -143,9 +157,10 @@ myLessons.exe: CMakeFiles/myLessons.dir/source/main.cpp.o
 myLessons.exe: CMakeFiles/myLessons.dir/source/Resume.cpp.o
 myLessons.exe: CMakeFiles/myLessons.dir/source/writeInFile.cpp.o
 myLessons.exe: CMakeFiles/myLessons.dir/source/readData.cpp.o
+myLessons.exe: CMakeFiles/myLessons.dir/source/findInFile.cpp.o
 myLessons.exe: CMakeFiles/myLessons.dir/build.make
 myLessons.exe: CMakeFiles/myLessons.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable myLessons.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable myLessons.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myLessons.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +173,6 @@ CMakeFiles/myLessons.dir/clean:
 .PHONY : CMakeFiles/myLessons.dir/clean
 
 CMakeFiles/myLessons.dir/depend:
-	cd /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Danil/CLionProjects/myLessons /cygdrive/c/Users/Danil/CLionProjects/myLessons /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles/myLessons.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Danil/CLionProjects/myFirstProject /cygdrive/c/Users/Danil/CLionProjects/myFirstProject /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles/myLessons.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/myLessons.dir/depend
 
