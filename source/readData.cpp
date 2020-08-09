@@ -8,7 +8,7 @@ void readFile() {
     else {
         std::string stroke;
         while (!fileIn.eof()) {
-            stroke = "";
+            stroke.clear();
             getline(fileIn, stroke);
             std::cout << stroke << std::endl;
         }
@@ -17,5 +17,5 @@ void readFile() {
 }
 
 void currentCountOfResume() {
-    std::cout << "Current count of resume(s): " << &Resume::getCountOfResume;
+    std::cout << "Current count of resume(s): " << &Resume::getCountOfResume << std::endl;
 }

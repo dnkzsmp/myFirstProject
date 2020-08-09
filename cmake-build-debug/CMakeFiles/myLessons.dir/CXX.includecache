@@ -6,21 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.h
+/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/findInFile.cpp
+findInFile.h
+/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/findInFile.h
+
+/cygdrive/c/Users/Danil/CLionProjects/myFirstProject/source/findInFile.h
+cstring
+-
+fstream
+-
 iostream
 -
 string
--
-utility
--
-
-/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.cpp
-readData.h
-/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.h
-
-/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/readData.h
-Resume.h
-/cygdrive/c/Users/Danil/CLionProjects/myLessons/source/Resume.h
-fstream
 -
 

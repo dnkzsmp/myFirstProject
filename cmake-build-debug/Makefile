@@ -68,10 +68,10 @@ RM = /cygdrive/c/Users/Danil/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Danil/CLionProjects/myLessons
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Danil/CLionProjects/myFirstProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Danil/CLionProjects/myLessons/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Danil/CLionProjects/myFirstProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,33 @@ source/Resume.s: source/Resume.cpp.s
 source/Resume.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myLessons.dir/build.make CMakeFiles/myLessons.dir/source/Resume.cpp.s
 .PHONY : source/Resume.cpp.s
+
+source/findInFile.o: source/findInFile.cpp.o
+
+.PHONY : source/findInFile.o
+
+# target to build an object file
+source/findInFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myLessons.dir/build.make CMakeFiles/myLessons.dir/source/findInFile.cpp.o
+.PHONY : source/findInFile.cpp.o
+
+source/findInFile.i: source/findInFile.cpp.i
+
+.PHONY : source/findInFile.i
+
+# target to preprocess a source file
+source/findInFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myLessons.dir/build.make CMakeFiles/myLessons.dir/source/findInFile.cpp.i
+.PHONY : source/findInFile.cpp.i
+
+source/findInFile.s: source/findInFile.cpp.s
+
+.PHONY : source/findInFile.s
+
+# target to generate assembly for a file
+source/findInFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myLessons.dir/build.make CMakeFiles/myLessons.dir/source/findInFile.cpp.s
+.PHONY : source/findInFile.cpp.s
 
 source/main.o: source/main.cpp.o
 
@@ -263,6 +290,9 @@ help:
 	@echo "... source/Resume.o"
 	@echo "... source/Resume.i"
 	@echo "... source/Resume.s"
+	@echo "... source/findInFile.o"
+	@echo "... source/findInFile.i"
+	@echo "... source/findInFile.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"

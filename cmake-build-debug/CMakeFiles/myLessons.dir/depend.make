@@ -4,7 +4,11 @@
 CMakeFiles/myLessons.dir/source/Resume.cpp.o: ../source/Resume.cpp
 CMakeFiles/myLessons.dir/source/Resume.cpp.o: ../source/Resume.h
 
+CMakeFiles/myLessons.dir/source/findInFile.cpp.o: ../source/findInFile.cpp
+CMakeFiles/myLessons.dir/source/findInFile.cpp.o: ../source/findInFile.h
+
 CMakeFiles/myLessons.dir/source/main.cpp.o: ../source/Resume.h
+CMakeFiles/myLessons.dir/source/main.cpp.o: ../source/findInFile.h
 CMakeFiles/myLessons.dir/source/main.cpp.o: ../source/main.cpp
 CMakeFiles/myLessons.dir/source/main.cpp.o: ../source/readData.h
 CMakeFiles/myLessons.dir/source/main.cpp.o: ../source/writeInFile.h
