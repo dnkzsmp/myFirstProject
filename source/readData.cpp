@@ -8,7 +8,7 @@ void readFile() {
     else {
         std::string stroke;
         while (!fileIn.eof()) {
-            stroke = "";
+            stroke.clear();
             getline(fileIn, stroke);
             std::cout << stroke << std::endl;
         }
